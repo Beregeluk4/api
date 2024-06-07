@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Superhero Information</title>
+  <link rel="stylesheet" href="/CSS/app.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <aside class="home-button">
+        <button onclick="goToHome()">Home</button>
+      </aside>
+      <h1>Superhero Information</h1>
+    </nav>
+  </header>
+  <main>
+    <section id="superhero-info" class="superhero-info-container"></section>
+    <div class="button-wrapper">
+      <button id="prevBtn" onclick="showPrevious()">Previous</button>
+      <span id="current-page" style="display: none;"></span>
+      <button id="nextBtn" onclick="showNext()">Next</button>
+    </div>
+  </main>
+  <script src="/JS/app.js"></script>
+</body>
+</html>
